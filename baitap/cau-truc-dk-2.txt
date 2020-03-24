@@ -1,0 +1,147 @@
+Bài 1                                                                                                                                                                                                              
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<script>
+		let a = +prompt("Nh?p vào d? C:");
+		let f = 0;
+		f = a  *  9/5 + 32;
+
+		alert(f + "°F");
+	</script>
+</body>
+</html>
+bài 2:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		let a = +prompt("Nh?p vào d? meet:");
+		let ft = 0;
+		ft =a * 3.2808;
+
+		alert(ft + "feet");
+	</script>
+</body>
+</html>
+Bài 3:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<!-- Bài 3: Tính di?n tích hình vuông khi bi?t c?nh a. -->
+	<script type="text/javascript">
+		let a = +prompt("Nh?p vào c?nh a:");
+		let s = a*a;
+		
+
+		alert("Di?n tích là:"+s);
+	</script>
+</body>
+</html>
+bài 4 :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		let a = +prompt("Nh?p vào c?nh a:");
+		let b = +prompt("Nh?p vào c?nh b:");
+		let s = a*b;
+		
+
+		alert("Di?n tích là:"+s);
+	</script>
+</body>
+</html>
+Bài 5:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		let a = +prompt("Nh?p vào c?nh a:");
+		let b = +prompt("Nh?p vào c?nh b:");
+		let s = a*b;
+		
+
+		alert("Di?n tích là:"+s);
+	</script>
+</body>
+</html>
+Bài 6:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		let a = +prompt("Nh?p vào s? a:");
+		let b = +prompt("Nh?p vào s? b:");
+		let x  = -b/a;
+		
+
+		alert("Ngi?m c?a phuong trình là x = "+" "+x);
+	</script>
+</body>
+</html>
+Bài 7 :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		let a = +prompt("Nh?p vào s? a:");
+		if(a>0&& a<120){
+			alert("là tu?i c?a m?t ngu?i");
+		} else {
+			alert("không ph?i là tu?i c?a m?t ngu?i");
+		}
+	</script>
+</body>
+</html>
+Bài 8:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+       <script>
+		let a = +prompt("Nh?p vào s? a:");
+		let b = +prompt("Nh?p vào s? b:");
+		let c = +prompt("Nh?p vào s? c:");
+		if(a>0&&b>0&&c>0&& a+b>c&&b+c>a&&a+c>b){
+			alert("a:"+a+"  "+"b:"+b+"  "+"c:"+c+"  " +"Là 3 c?nh c?a tam giác");
+		} else {
+			alert("không ph?i là c?nh c?a tam giác");
+		}
+		
+	</script>
+</body>
+</html>

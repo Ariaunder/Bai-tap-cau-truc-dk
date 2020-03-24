@@ -1,0 +1,114 @@
+Bài 1:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<script>
+		let a = +prompt("Nh?p  vào s? a:");
+		let b = +prompt("Nh?p  vào s? b:");
+
+		if(a>0&& b>0){
+			if(a%b ===0){
+				alert("S? "+ a+"chia h?t cho"+b);
+			}
+			else {
+				alert("S? "+ a+" không chia h?t cho "+b);
+			}
+		}
+	</script>
+	
+</body>
+</html>
+
+Bài 2:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+
+	<script>
+		let a = +prompt("Nh?p vào s? nguyên a:");
+		if(a>0){
+			alert("S? :" + a +" "+ "lon hon 0");
+		} else if (a<0) {
+			alert("S? :" + a +" "+ "nh? hon 0");
+		}
+	</script>
+</body>
+</html>
+Bài 3:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		let a = +prompt("Nh?p vào s? tu?i:");
+		if(a===15 && a>0){
+			alert("Ð? di?u ki?n vào l?p 10");
+		} else {
+			alert("Chua d? di?u ki?n vào l?p 10");
+		}
+	</script>
+</body>
+</html>
+
+Bài 4:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		let a = +prompt("Nh?p s? nguyên a: ");
+		let b = +prompt("Nh?p s? nguyên b: ");
+		let c = +prompt("Nh?p s? nguyên c: ");
+
+		if (a>b && b>c) {
+			alert("S? "+ a + "l?n nh?t");
+		} else if (a<b&& b>c) {
+			alert("S? "+ b + "l?n nh?t");
+		} else if (c>a&& c>b) {
+			alert("S? "+ c + "l?n nh?t");
+		}
+	</script>
+</body>
+</html>
+
+Bài 5:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		let a = +prompt("Nh?p di?m ki?m tra: ");
+		let b = +prompt("di?m thi gi?a k?: ");
+		let c = +prompt("Nh?p di?m thi cu?i k?: ");
+
+		let tb = (a+b+c)/2;
+		if(tb>8.5){
+			alert("X?p h?ng h?c l?c gi?i");
+		} else if (tb>=6.5&& tb <8.5) {
+			alert("X?p h?ng h?c l?c khá");
+		} else if (tb <=6.5&& tb>5) {
+			alert("X?p h?ng h?c l?c trung bình");
+		} else {
+			alert("X?p h?ng h?c l?c y?u");
+		}
+	</script>
+</body>
+</html>
